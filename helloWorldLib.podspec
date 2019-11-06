@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'helloWorldLib'
   s.version          = '0.1.0'
   s.summary          = 'Welcome to the world of Cocopods.'
+  s.swift_versions   = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
