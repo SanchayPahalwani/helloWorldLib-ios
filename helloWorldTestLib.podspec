@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'helloWorldTestLib'
-  s.version          = '0.2.0'
+  s.version          = '0.5.0'
   s.summary          = 'Welcome to the world of Cocopods.'
   s.swift_versions   = '4.0'
 
