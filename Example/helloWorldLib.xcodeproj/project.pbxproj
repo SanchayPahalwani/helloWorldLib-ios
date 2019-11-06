@@ -18,9 +18,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E15A0C53A517482BEA52AA2 /* Pods-helloWorldLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helloWorldLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-helloWorldLib_Tests/Pods-helloWorldLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		96DB79BB9F356375F4D133BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CDE8C97D96FD354B129D909A /* helloWorldLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = helloWorldLib.podspec; path = ../helloWorldLib.podspec; sourceTree = "<group>"; };
-		CFD671865F1CA64A57C49DE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		96DB79BB9F356375F4D133BA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CDE8C97D96FD354B129D909A /* helloWorldLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = helloWorldLib.podspec; path = ../helloWorldLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFD671865F1CA64A57C49DE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				2C4B6770168222CAF77E587F /* Pods-helloWorldLib_Tests.debug.xcconfig */,
 				6E15A0C53A517482BEA52AA2 /* Pods-helloWorldLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
